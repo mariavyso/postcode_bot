@@ -1,1 +1,1 @@
-worker: python bigquery.py
+worker: python bot.py
