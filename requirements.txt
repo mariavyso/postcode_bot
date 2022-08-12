@@ -8,5 +8,4 @@ google-crc32c
 google-resumable-media
 googleapis-common-protos  
 pandas
-pyTelegramBotAPI
-python-telegram-bot --pre
+python-telegram-bot==20.0a0
