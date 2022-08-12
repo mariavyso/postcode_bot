@@ -15,7 +15,7 @@ from google.cloud import bigquery
 from google.oauth2 import service_account
 
 credentials = service_account.Credentials.from_service_account_file(
-    "/Users/vysochina/python_code/test3/google-credentials.json"
+    "./google-credentials.json"
 )
 
 project_id = "testsemplio"
