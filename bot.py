@@ -55,7 +55,7 @@ markup3 = ReplyKeyboardMarkup(keyboard, one_time_keyboard=True)
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Send a message when the command /start is issued."""
     await update.message.reply_text(
-        "Hi! Write your postcode without spaces(like this: AA000AA), please:",
+        "Hi! Write your postcode without spaces(for example: NW110WS), please:",
     )
     return CHOOSING
 
