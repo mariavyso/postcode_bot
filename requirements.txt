@@ -11,7 +11,4 @@ pandas
 python-telegram-bot==20.0a1
 matplotlib
 seaborn
-StringIO
-BytesIO
-PIL
 prettytable
