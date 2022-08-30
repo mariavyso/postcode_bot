@@ -16,12 +16,10 @@ from google.oauth2 import service_account
 import logging
 from telegram.constants import ParseMode
 import pandas as pd
-import pandas_gbq
 import matplotlib.pyplot as plt
 import seaborn as sns
 import io
 from io import BytesIO
-from PIL import Image
 import prettytable as pt
 
 
