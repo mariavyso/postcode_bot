@@ -9,7 +9,7 @@ google-resumable-media
 googleapis-common-protos  
 pandas
 python-telegram-bot==20.0a1
-matplotlib.pyplot
+matplotlib
 seaborn
 io
 PIL
