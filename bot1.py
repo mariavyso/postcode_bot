@@ -374,14 +374,14 @@ async def finder(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
                 query = """
                         SELECT male_table.age, male, female 
                         FROM (select age, sum(value) as male
-                        from `testsemplio.population.fin_age` 
+                        from `durable-sky-359421.london_data.age` 
                         where code = @code and year = @year and sex = 'male'
                         group by age) 
                         as male_table
                         join
                         (SELECT age, female
                         FROM (select age, sum(value) as female
-                        from `testsemplio.population.fin_age` 
+                        from `durable-sky-359421.london_data.age` 
                         where code = @code and year = @year and sex = 'female'
                         group by age))
                         as female_table
