@@ -12,3 +12,4 @@ python-telegram-bot==20.0a1
 matplotlib
 seaborn
 prettytable
+db-dtypes
