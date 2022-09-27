@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 
 # Connected to BigQuery
 credentials = service_account.Credentials.from_service_account_file(
-    "/Users/vysochina/python_code/sempliobot_mine/google-credentials.json"
+    "./google-credentials.json"
 )
 project_id = "testsemplio"
 client = bigquery.Client(credentials=credentials, project=project_id)
