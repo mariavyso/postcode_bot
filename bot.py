@@ -405,7 +405,7 @@ def main() -> None:
     # Create the Application and pass it bot's token.
     application = (
         ApplicationBuilder()
-        .token("5496114181:AAFwGVZFxdNhFtP2oLI69kfdi1wgZLm1Bo8")
+        .token("YOUR_TOKEN")
         .build()
     )
 
