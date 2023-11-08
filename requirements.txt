@@ -6,7 +6,7 @@ google-cloud-core
 google-cloud-storage        
 google-crc32c               
 google-resumable-media
-googleapis-common-protos  
+googleapis-common-protos
 pandas
 python-telegram-bot==20.0a1
 matplotlib
